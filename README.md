@@ -14,16 +14,13 @@ npm install
 You also need to set up a CockroachDB instance and configure the connection string in the  `.env`  file:
 
 ```
-# dev
-DATABASE_URL="postgresql://<cockroachdb-url>"
-
+DATABASE_URL=""
 
 AWS_ACCESS_KEY_CUSTOM=""
 AWS_SECRET_KEY_CUSTOM=""
 AWS_REGION_CUSTOM=""
 AWS_ARTICLE_ASSET_BUCKET=""
 
-# dev
 DATADOG_API_KEY=""
 FINGERPRINT_API_SECRET_KEY=""
 
