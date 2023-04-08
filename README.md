@@ -47,4 +47,4 @@ npm run dev
 This project is on hold.
 
 <h2>License</h2>
-This project is licensed under the <a href="LICENSE" target="_new">MIT License</a>.
+Everything, <b>excluding the design</b>, in this project is licensed under the <a href="LICENSE" target="_new">MIT License</a>. To use the design for a project, you must  <a href="https://www.tailwindawesome.com/resources/banter" target="_new">buy the template</a>.
