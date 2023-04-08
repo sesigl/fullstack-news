@@ -1,0 +1,3 @@
+name: fullstack-news
+runtime: nodejs
+description: A minimal AWS TypeScript Pulumi program

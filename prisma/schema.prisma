@@ -1,0 +1,160 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "cockroachdb"
+  url      = env("DATABASE_URL")
+}
+
+model Article {
+  id        String   @id
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  parsedAt  DateTime
+  title     String
+  link      String
+
+  articleSourceId String @default("unknown")
+  // articleSource   ArticleSource   @relation(fields: [articleSourceId], references: [id], onDelete: Cascade)
+
+  imageLink String
+  description String
+  author    String
+  tags      String[]
+  ml_categories      String[] @default([])
+  votes     Vote[]
+  comments  Comment[]
+  challenges Challenge[]
+
+  @@unique([link])
+}
+
+model ArticleMlCategory {
+  ml_category_check     String   @id
+  article_category      String
+
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+model Vote {
+  createdAt     DateTime  @default(now())
+  visitorId     String
+  value         Int
+  article       Article   @relation(fields: [articleId], references: [id], onDelete: Cascade)
+  articleId     String
+
+  user          User?  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId        String?
+
+  @@id([visitorId, articleId])
+}
+
+model Comment {
+  id          String   @id
+  createdAt   DateTime  @default(now())
+  visitorId   String
+  message     String
+  article     Article   @relation(fields: [articleId], references: [id], onDelete: Cascade)
+  articleId   String
+
+  user        User?  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId      String?
+}
+
+model User {
+  id              String   @id
+  email           String   @unique
+  auth0Id         String   @unique
+  displayName     String   @unique
+
+  // profile settings
+  allowNewsletter Boolean
+
+  favoriteCategories  String[] @default([])
+
+  votes           Vote[]
+  comments        Comment[]
+  challenges      Challenge[]
+
+
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+model ArticleSource {
+  id                          String      @id
+  rssUrl                      String      @unique
+  creatorUserId               String
+  approved                    Boolean
+
+  dynamicFieldConfigurations          DynamicFieldConfiguration[]
+  staticFieldConfiguration            StaticFieldConfiguration[]
+  useExistingCategoryImageFromField   UseExistingCategoryImageFromField[]
+
+  // articles                    Article[]
+
+  createdAt                   DateTime    @default(now())
+  updatedAt                   DateTime    @updatedAt
+  lastParsedAt                DateTime    @default(now())
+}
+
+model DynamicFieldConfiguration {
+  id              String   @id
+  fieldName       String
+  objectPath      String
+  extractRegExp   String?
+
+  articleSource   ArticleSource   @relation(fields: [articleSourceId], references: [id], onDelete: Cascade)
+  articleSourceId String
+
+}
+
+model StaticFieldConfiguration {
+  id              String   @id
+  fieldName       String
+
+  value           String
+
+  articleSource   ArticleSource   @relation(fields: [articleSourceId], references: [id], onDelete: Cascade)
+  articleSourceId String
+}
+
+model UseExistingCategoryImageFromField {
+  id              String   @id
+  fieldName       String
+
+  objectPath      String
+
+  articleSource   ArticleSource   @relation(fields: [articleSourceId], references: [id], onDelete: Cascade)
+  articleSourceId String
+}
+
+model CategoryImage {
+  name            String   @id
+}
+
+model Challenge {
+  id                    String   @id
+  challengeName         String
+  description           String
+  goal                  String
+  programmingLanguage   String
+  testCode              String
+  exampleSolution       String
+  templateSolution      String
+
+  approved              Boolean
+
+  creatorUserId         String?
+  creator               User?  @relation(fields: [creatorUserId], references: [id], onDelete: SetNull)
+
+  articles              Article[]
+
+  createdAt             DateTime    @default(now())
+  updatedAt             DateTime    @updatedAt
+}

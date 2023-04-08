@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.js-hamburger-open span:nth-child(1) {
+  @apply w-0 top-1.5 left-1/2;
+}
+
+.js-hamburger-open span:nth-child(2) {
+  @apply rotate-45;
+}
+
+.js-hamburger-open span:nth-child(3) {
+  @apply -rotate-45;
+}
+
+.js-hamburger-open span:nth-child(4) {
+  @apply w-0 top-1.5 left-1/2;
+}
+
+.js-mobileNav-open {
+  @apply block;
+}
+
+.lazy.loaded {
+  @apply opacity-100;
+}

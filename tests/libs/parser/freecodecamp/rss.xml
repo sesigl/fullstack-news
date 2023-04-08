@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+    <channel>
+        <title>
+            <![CDATA[ freeCodeCamp.org ]]>
+        </title>
+        <description>
+            <![CDATA[ Browse thousands of programming tutorials written by experts. Learn Web Development, Data Science, DevOps, Security, and get developer career advice. ]]>
+        </description>
+        <link>https://www.freecodecamp.org/news/</link>
+        <image>
+            <url>https://cdn.freecodecamp.org/universal/favicons/favicon.png</url>
+            
+            <title>freeCodeCamp Programming Tutorials: Python, JavaScript, Git &amp; More</title>
+            <link>https://www.freecodecamp.org/news/</link>
+        </image>
+        <generator>Eleventy</generator>
+        <lastBuildDate>Sun, 31 Jul 2022 10:13:36 -0400</lastBuildDate>
+        <atom:link href="https://www.freecodecamp.org/news/" rel="self" type="application/rss+xml" />
+        <ttl>60</ttl>
+        
+            <item>
+                <title>
+                    <![CDATA[ Routing in Next.js – How to Set Up Dynamic Routing with Pre-Rendering in Next ]]>
+                </title>
+                <description>
+                    <![CDATA[ In this tutorial, you'll learn how to set up dynamic routing in Next.js. You'll also learn about pre-rendering and why it's important. 🔐 Here's what we'll cover:  * You'll get to know getStaticPaths(), one of the core principles of Next.js.  * You'll improve your general Next.js knowledge and ]]>
+                </description>
+                <link>https://www.freecodecamp.org/news/how-to-setup-dynamic-routing-in-nextjs/</link>
+                <guid isPermaLink="false"></guid>
+                <category>
+                    
+                    <![CDATA[ Nextjs ]]>
+                </category>
+                <dc:creator>
+                    <![CDATA[ Matthes Bär ]]>
+                </dc:creator>
+                <pubDate>Fri, 29 Jul 2022 17:21:21 -0400</pubDate>
+                <media:content url="https://www.freecodecamp.org/news/content/images/2022/07/pexels-pixabay-2150.jpg" medium="image" />
+                <content:encoded>
+                    <![CDATA[ In this tutorial, you'll learn how to set up dynamic routing in Next.js. You'll also learn about pre-rendering and why it's important. 🔐 Here's what we'll cover:  * You'll get to know getStaticPaths(), one of the core principles of Next.js.  * You'll improve your general Next.js knowledge and ]]>
+                </content:encoded>
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ Sort Alphabetically in JavaScript – How to Order by Name in JS ]]>
+                </title>
+                <description>
+                    <![CDATA[ Sometimes you might have an array of words where you want to sort each word alphabetically (from a-z). Or you might have an array of objects containing user information including names, for example, where you want to sort the users by their names. We can do this in JavaScript by ]]>
+                </description>
+                <link>https://www.freecodecamp.org/news/how-to-sort-alphabetically-in-javascript/</link>
+                <guid isPermaLink="false"></guid>
+                <category>
+                    
+                    <![CDATA[ JavaScript ]]>
+                </category>
+                <dc:creator>
+                    <![CDATA[ Joel Olawanle ]]>
+                </dc:creator>
+                <pubDate>Fri, 29 Jul 2022 15:59:50 -0400</pubDate>
+                <media:content url="https://www.freecodecamp.org/news/content/images/2022/07/cover-template--4-.jpg" medium="image" />
+                <content:encoded>
+                    <![CDATA[ Sometimes you might have an array of words where you want to sort each word alphabetically (from a-z). Or you might have an array of objects containing user information including names, for example, where you want to sort the users by their names. We can do this in JavaScript by ]]>
+                </content:encoded>
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ How to Choose a Tech Career in 2022 – A Career Changer's Guide ]]>
+                </title>
+                <description>
+                    <![CDATA[ Choosing a tech career can be tricky because there are many possible paths to choose from. There's Web Development, Machine Learning, Data Science, DevOps, and many more. But the good news is you don't necessarily have to be a developer to be in the world of tech. This article is ]]>
+                </description>
+                <link>https://www.freecodecamp.org/news/how-to-choose-a-tech-career/</link>
+                <guid isPermaLink="false"></guid>
+                <category>
+                    
+                    <![CDATA[ Career Change ]]>
+                </category>
+                <dc:creator>
+                    <![CDATA[ Sophia Iroegbu ]]>
+                </dc:creator>
+                <pubDate>Fri, 29 Jul 2022 12:43:31 -0400</pubDate>
+                <media:content url="https://www.freecodecamp.org/news/content/images/2022/07/Tech-Blog-Cover--3-.png" medium="image" />
+                <content:encoded>
+                    <![CDATA[ Choosing a tech career can be tricky because there are many possible paths to choose from. There's Web Development, Machine Learning, Data Science, DevOps, and many more. But the good news is you don't necessarily have to be a developer to be in the world of tech. This article is ]]>
+                </content:encoded>
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ How to Authenticate a User with Face Recognition in React.js ]]>
+                </title>
+                <description>
+                    <![CDATA[ With the advent of Web 2.0, authenticating users became a crucial task for developers.  Before Web 2.0, website visitors could only view the content of a web page – there was no interaction. This era of the internet was called Web 1.0. But after Web 2.0, people gained the ]]>
+                </description>
+                <link>https://www.freecodecamp.org/news/authenticate-with-face-recognition-reactjs/</link>
+                <guid isPermaLink="false"></guid>
+                <category>
+                    
+                    <![CDATA[ Artificial Intelligence ]]>
+                </category>
+                <dc:creator>
+                    <![CDATA[ Hrishikesh Pathak ]]>
+                </dc:creator>
+                <pubDate>Fri, 29 Jul 2022 09:55:01 -0400</pubDate>
+                <media:content url="https://www.freecodecamp.org/news/content/images/2022/07/FaceIO-react--1-.jpg" medium="image" />
+                <content:encoded>
+                    <![CDATA[ With the advent of Web 2.0, authenticating users became a crucial task for developers.  Before Web 2.0, website visitors could only view the content of a web page – there was no interaction. This era of the internet was called Web 1.0. But after Web 2.0, people gained the ]]>
+                </content:encoded>
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ Error: failed to push some refs to – How to Fix in Git ]]>
+                </title>
+                <description>
+                    <![CDATA[ When collaborating with other developers using Git, you might encounter the  error: failed to push some refs to [remote repo] error. This error mainly occurs when you attempt to push your local changes to GitHub while the local repository (repo) has not yet been updated with any changes made ]]>
+                </description>
+                <link>https://www.freecodecamp.org/news/error-failed-to-push-some-refs-to-how-to-fix-in-git/</link>
+                <guid isPermaLink="false"></guid>
+                <category>
+                    
+                    <![CDATA[ Git ]]>
+                </category>
+                <dc:creator>
+                    <![CDATA[ Ihechikara Vincent Abba ]]>
+                </dc:creator>
+                <pubDate>Thu, 28 Jul 2022 16:04:11 -0400</pubDate>
+                <media:content url="https://www.freecodecamp.org/news/content/images/2022/07/roman-synkevych-wX2L8L-fGeA-unsplash.jpg" medium="image" />
+                <content:encoded>
+                    <![CDATA[ When collaborating with other developers using Git, you might encounter the  error: failed to push some refs to [remote repo] error. This error mainly occurs when you attempt to push your local changes to GitHub while the local repository (repo) has not yet been updated with any changes made ]]>
+                </content:encoded>
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ JavaScript replaceAll() – Replace All Instances of a String in JS ]]>
+                </title>
+                <description>
+                    <![CDATA[ When working with a JavaScript program, you might need to replace a character or word with another one. Specifically, you may need to replace not just one but all occurrences of that character or word with something else. There are a few ways you can achieve this with JavaScript. One ]]>
+                </description>
+                <link>https://www.freecodecamp.org/news/javascript-replaceall-replace-all-instances-of-a-string-in-js/</link>
+                <guid isPermaLink="false"></guid>
+                <category>
+                    
+                    <![CDATA[ JavaScript ]]>
+                </category>
+                <dc:creator>
+                    <![CDATA[ Dionysia Lemonaki ]]>
+                </dc:creator>
+                <pubDate>Thu, 21 Jul 2022 12:15:26 -0400</pubDate>
+                <media:content url="https://www.freecodecamp.org/news/content/images/2022/07/pexels-christina-morillo-1181675.jpg" medium="image" />
+                <content:encoded>
+                    <![CDATA[ When working with a JavaScript program, you might need to replace a character or word with another one. Specifically, you may need to replace not just one but all occurrences of that character or word with something else. There are a few ways you can achieve this with JavaScript. One ]]>
+                </content:encoded>
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ Python Dictionary Methods – Dictionaries in Python ]]>
+                </title>
+                <description>
+                    <![CDATA[ In Python, a dictionary is one of the core data structures. It is a sequence of key-value pairs separated by commas and surrounded by curly braces. If you’re familiar with JavaScript, Python dictionaries are like JavaScript objects. Python provides more than 10 methods for working with dictionaries. In this article, ]]>
+                </description>
+                <link>https://www.freecodecamp.org/news/python-dictionary-methods-dictionaries-in-python/</link>
+                <guid isPermaLink="false"></guid>
+                <category>
+                    
+                    <![CDATA[ Python ]]>
+                </category>
+                <dc:creator>
+                    <![CDATA[ Kolade Chris ]]>
+                </dc:creator>
+                <pubDate>Thu, 28 Jul 2022 11:32:21 -0400</pubDate>
+                <media:content url="https://www.freecodecamp.org/news/content/images/2022/07/python_dict.png" medium="image" />
+                <content:encoded>
+                    <![CDATA[ In Python, a dictionary is one of the core data structures. It is a sequence of key-value pairs separated by commas and surrounded by curly braces. If you’re familiar with JavaScript, Python dictionaries are like JavaScript objects. Python provides more than 10 methods for working with dictionaries. In this article, ]]>
+                </content:encoded>
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ Learn Game Development with JavaScript ]]>
+                </title>
+                <description>
+                    <![CDATA[ JavaScript can be used to develop a bunch of different types of games. And games created with JavaScript can run on almost any device with a web browser. We just published a 10-hour JavaScript game development course on the freeCodeCamp.org YouTube channel. You will learn to make 2D games with ]]>
+                </description>
+                <link>https://www.freecodecamp.org/news/learn-javascript-game-development-full-course/</link>
+                <guid isPermaLink="false"></guid>
+                <category>
+                    
+                    <![CDATA[ JavaScript ]]>
+                </category>
+                <dc:creator>
+                    <![CDATA[ Beau Carnes ]]>
+                </dc:creator>
+                <pubDate>Thu, 28 Jul 2022 09:52:54 -0400</pubDate>
+                <media:content url="https://www.freecodecamp.org/news/content/images/2022/07/jsgame.png" medium="image" />
+                <content:encoded>
+                    <![CDATA[ JavaScript can be used to develop a bunch of different types of games. And games created with JavaScript can run on almost any device with a web browser. We just published a 10-hour JavaScript game development course on the freeCodeCamp.org YouTube channel. You will learn to make 2D games with ]]>
+                </content:encoded>
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ JavaScript document.ready() – Document Ready JS and jQuery Example ]]>
+                </title>
+                <description>
+                    <![CDATA[ When working with JavaScript and the Document Object Model (DOM), you might want your script to run only when the DOM has loaded.  You can do this using the $(document).ready() method in jQuery, or the  DOMContentLoaded event in vanilla JavaScript. In this article, you'll learn how to make ]]>
+                </description>
+                <link>https://www.freecodecamp.org/news/javascript-document-ready-jquery-example/</link>
+                <guid isPermaLink="false"></guid>
+                <category>
+                    
+                    <![CDATA[ JavaScript ]]>
+                </category>
+                <dc:creator>
+                    <![CDATA[ Ihechikara Vincent Abba ]]>
+                </dc:creator>
+                <pubDate>Wed, 27 Jul 2022 17:03:19 -0400</pubDate>
+                <media:content url="https://www.freecodecamp.org/news/content/images/2022/07/joan-gamell-ZS67i1HLllo-unsplash.jpg" medium="image" />
+                <content:encoded>
+                    <![CDATA[ When working with JavaScript and the Document Object Model (DOM), you might want your script to run only when the DOM has loaded.  You can do this using the $(document).ready() method in jQuery, or the  DOMContentLoaded event in vanilla JavaScript. In this article, you'll learn how to make ]]>
+                </content:encoded>
+            </item>
+        
+            <item>
+                <title>
+                    <![CDATA[ The AI Chatbot Handbook – How to Build an AI Chatbot with Redis, Python, and GPT ]]>
+                </title>
+                <description>
+                    <![CDATA[ In order to build a working full-stack application, there are so many moving parts to think about. And you'll need to make many decisions that will be critical to the success of your app. For example, what language will you use and what platform will you deploy on? Are you ]]>
+                </description>
+                <link>https://www.freecodecamp.org/news/how-to-build-an-ai-chatbot-with-redis-python-and-gpt/</link>
+                <guid isPermaLink="false"></guid>
+                <category>
+                    
+                    <![CDATA[ Python ]]>
+                </category>
+                <dc:creator>
+                    <![CDATA[ Stephen Sanwo ]]>
+                </dc:creator>
+                <pubDate>Wed, 27 Jul 2022 16:16:44 -0400</pubDate>
+                <media:content url="https://www.freecodecamp.org/news/content/images/2022/07/a127b667458911.5b3b0b831c028-1.jpg" medium="image" />
+                <content:encoded>
+                    <![CDATA[ In order to build a working full-stack application, there are so many moving parts to think about. And you'll need to make many decisions that will be critical to the success of your app. For example, what language will you use and what platform will you deploy on? Are you ]]>
+                </content:encoded>
+            </item>
+        
+    </channel>
+</rss>

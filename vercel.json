@@ -1,0 +1,10 @@
+{
+  "env": {
+    "DATABASE_URL": "postgresql://sesigl:wJ0108xHkKxDR3IIciw0Lg@free-tier13.aws-eu-central-1.cockroachlabs.cloud:26257/defaultdb?sslmode=verify-full&options=--cluster%3Dfullstack-news-2691&connection_limit=1"
+  },
+  "functions": {
+    "pages/api/**/*.ts": {
+      "excludeFiles": "{+(.now|.next|_next|node_modules|public|assets|components|pages)/**,yarn.lock,README.md}"
+    }
+  }
+}
